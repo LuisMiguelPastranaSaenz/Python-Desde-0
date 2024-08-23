@@ -1,0 +1,65 @@
+¿Qué es una Variable?
+Una variable es un espacio en la memoria del ordenador donde se almacena un valor. Este valor puede cambiar durante la ejecución del programa.
+En Python, no es necesario declarar el tipo de variable antes de usarla. Python es un lenguaje de tipado dinámico,
+lo que significa que el tipo de la variable se determina automáticamente según el valor asignado.
+
+Declaración y Asignación de Variables:
+
+Declarar una variable simplemente implica darle un nombre y asignarle un valor.
+Ejemplo: nombre = "Juan"
+Aquí, nombre es la variable, y "Juan" es el valor asignado a esa variable.
+
+Capturar Datos del Usuario:
+En Python, se usa la función input() para capturar la entrada del usuario.
+
+Ejemplo. 
+nombre_persona = input("¿Como te llamas?")
+En este caso, el usuario verá la pregunta "¿Cómo te llamas?" en la consola, y lo que escriba se almacenará en la variable nombre.
+
+Reutilización de Variables:
+Una vez que se almacena un valor en una variable, puedes reutilizarlo en cualquier parte del código Ejemplo:
+print(f"Hola, {nombre_persona}! ¿Cómo estás?")
+
+Actualización de Variables:
+Las variables pueden ser actualizadas o cambiadas en cualquier momento por Ejemplo.
+edad = 19 
+edad = edad + 1 # Ahora la edad es 21 
+
+¿Qué es una f-string?
+Una f-string es una cadena de texto que se antepone con la letra f y permite insertar expresiones o variables dentro de llaves {}.
+Las f-strings convierten automáticamente el valor de la variable o expresión en una cadena de texto y lo integran en el lugar donde están las llaves.
+
+Ejemplo: 
+nombre = "Juan"
+saludo = f"Hola, {nombre}!"
+print(saludo)
+Aquí, nombre se inserta directamente dentro de la cadena de texto con la f-string.
+
+Tambien se puede usar de esta manera al momento de imprimir por consola cadenas de texto y concatenarlas con variables Ejemplo:
+
+nombre = input("¿Cómo te llamas? ")
+edad = int(input("¿Cuántos años tienes? "))
+print(f"Hola, {nombre}. Tienes {edad} años.")
+
+
+Ejercicios: 
+# Los Ejercicios Resueltos deben subirlos a sus repositorios y compartir el enlace por el grupo de whatsapp para hacer retroalimientaciones y recomendaciones. 
+# Recomendacion almomento de imprimir los resultados por consola pueden usar la concatenacion de variables y cadenas de texto con f String. 
+
+1. Captura y Almacena el Nombre:
+Escribe un programa que le pida al usuario su nombre y luego lo salude.
+
+2. Edad y Años por Vivir:
+Captura la edad del usuario y calcula cuántos años le faltan para cumplir 100 años.
+#Pista para el punto dos: La funcion o elemento print solo almacena String Investiguen como pueden hacer la conversion a int para poder realizar el calculo
+sobre los años que le faltan a la persona para cumplir los 100 años. 
+
+3. Color Favorito:
+Pregunta al usuario cuál es su color favorito y responde con un mensaje que incluya ese color.
+
+4. Conversación Completa:
+Combina todos los ejercicios anteriores en un programa que:
+Pregunte el nombre.
+Salude al usuario.
+Pregunte la edad y calcule los años que le faltan para cumplir 100.
+Pregunte el color favorito y responda con un mensaje.
